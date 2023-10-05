@@ -1,13 +1,82 @@
 
 body {
 
-    background-color:rgb(65, 64, 64);
+    background-color:#8d7f64;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1 { font-family: Dancing Script,cursive;
+    
     font-size: 80px;
     color:rgb(51, 50, 50);
     text-shadow: 4px 4px 4px; 
 }
+
+.jumbotron {
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 220%;
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(194, 189, 189);
+    font-family: Dancing Script,cursive;
+    font-weight: bold;
+    box-shadow: 10px 10px 4px;
+  }
+  
+  
+
+  
+  footer {
+    background-color:#050505;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  
+  }
+  
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+    
+  }
+  input, textarea  {
+   
+    width: 20%;
+    padding: 15px 10px;
+    margin: 15px 0;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 50px;
+    
+  }  
+  
+  #copyrightEtIcons {
+   
+    margin-bottom: 20px;
+    padding: 0 10%;
+    
+  }
+  #copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+    
+  }
+
+  .list {
+
+    background-color: #d6cbb4;
+  }
+
+.nav {
+
+  font-family: Dancing Script,cursive;}
+  
+  button:hover {
+    background-color: #0ad0f3;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
 
