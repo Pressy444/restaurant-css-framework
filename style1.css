@@ -1,7 +1,7 @@
 
 body {
 
-    background-color:#8d7f64;
+    background-color:#ac9b7b;
 }
 
 h1 { font-family: Dancing Script,cursive;
@@ -27,7 +27,7 @@ h1 { font-family: Dancing Script,cursive;
   
 
   
-  footer {
+  .footerContact {
     background-color:#050505;
     color: #FFFAE1;
     padding: 20px 0 10px 0;
@@ -78,5 +78,52 @@ h1 { font-family: Dancing Script,cursive;
     cursor: pointer;
     transition: 0.3s ease-in-out;
   }
-  
 
+  .titre {
+    text-shadow:6px 6px 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0c0c0c;
+    font-size:40px;
+    margin-top: 150px;
+
+  }
+.parag {
+  font-size: 30px;
+  color:#0f0f0f;
+  text-align: center;
+  margin-top: 140px;
+  font-family: Dancing Script,cursive;
+}
+  
+.line {
+  width: 70%;
+  height: 2px; 
+  background-color: #000; 
+  margin: 0 auto; 
+  margin-top: 130px
+}
+
+#map {
+
+  margin-left: 23%;
+  margin-top: 10%;
+}
+
+.parking {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align:left;
+}
+
+.rue {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.details {
+
+ height: 20px;
+ background-color:#050505;
+ color: #FFFAE1;
+}
