@@ -4,7 +4,7 @@ body {
     background-color:#ac9b7b;
 }
 
-h1 { font-family: Dancing Script,cursive;
+h1 { font-family:Arial, Helvetica, sans-serif ;
     
     font-size: 80px;
     color:rgb(51, 50, 50);
@@ -27,7 +27,7 @@ h1 { font-family: Dancing Script,cursive;
   
 
   
-  .footerContact {
+  .footerContact {      /*page contact*/
     background-color:#050505;
     color: #FFFAE1;
     padding: 20px 0 10px 0;
@@ -73,7 +73,7 @@ h1 { font-family: Dancing Script,cursive;
   font-family: Dancing Script,cursive;}
   
   button:hover {
-    background-color: #0ad0f3;
+    background-color: #c5a262;
     color: #FFFAE1;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -85,45 +85,119 @@ h1 { font-family: Dancing Script,cursive;
     font-family: Arial, Helvetica, sans-serif;
     color:#0c0c0c;
     font-size:40px;
-    margin-top: 150px;
+    margin-top: 110px;
 
   }
 .parag {
   font-size: 30px;
   color:#0f0f0f;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 90px;
   font-family: Dancing Script,cursive;
+  
 }
   
 .line {
   width: 70%;
-  height: 2px; 
+  height: 4px; 
   background-color: #000; 
   margin: 0 auto; 
-  margin-top: 130px
+  margin-top: 90px;
 }
 
 #map {
+  
+  margin: 50px 50px 50px 50px;}
+  
 
-  margin-left: 23%;
-  margin-top: 10%;
+
+
+  
+  .container1 {
+
+    color: rgb(10, 10, 10);
+    padding: 20px;
+    align-items: space-between;
+    justify-content: left;
+    
+  }
+  
+
+  .placeholder {
+
+    width: 70%;
+    margin: 0 auto;
+    max-width: 900px;
+
+  }
+  input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+  }
+    
+  .button1 {
+   
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+    font-family: Dancing Script,cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: #8d6d31;
+    border: none;
+	  width: 55%;
+	  padding: 15px 10px;
+	  margin: 1px 0;
+	  font-size: 1.2em;
+	  font-family: 'Advent Pro', sans-serif;
+	  border-radius: 8px;
+    color:rgb(10, 10, 10);
+  }
+  
+  .horaire {
+
+    
+    text-align: center;
+
+  }
+
+
+  .parking {
+
+  font-family: Dancing Script,cursive;
+  text-align: center;
+
+
+  }
+
+  .pagination {
+
+    justify-content: center;
+    background-color: #0f0f0f;
+    color:rgb(37, 35, 35);
+  }
+
+p, h5 {
+
+  font-family: Dancing Script,cursive;
 }
 
-.parking {
-  margin-left: 20px;
-  margin-top: 20px;
-  text-align:left;
+#monCarousel {
+
+  margin: auto;
+  width: 50%;
 }
 
-.rue {
-  margin-right: 20px;
-  text-align: right;
-}
 
-.details {
 
- height: 20px;
- background-color:#050505;
- color: #FFFAE1;
+.carousel-item img {
+
+width: 100%;
+height: auto;
+
 }
