@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="scriptcontact.js"></script>
     <link rel="stylesheet" href="style1.css">
 
 
@@ -45,17 +46,31 @@
         
 
 	        <h2>Contactez-Nous</h2>
-	       <form>  
+
+
+
+        <form action="mailto:pressylou@hotmail.com" method="post" enctype="text/plain">
+          <label for="email"></label>
 
              <input type="text" placeholder="Nom"><br>
 	           <input type="text" placeholder="Prénom"><br>
              <input type="tel" placeholder="Télephonne"><br>
 	           <input type="email" placeholder="E-mail"><br>
-	              <textarea type="text" placeholder="Votre message ici..."></textarea><br>
+	              <textarea type="text" placeholder="Votre message ici..."></textarea>
                 <br>
-	               
-                   <a href="pressylou@hotmail.com" class=" btn button1">Envoyer</a>
-
+                <br>
+                <label for="choix">Sélectionnez une option :</label>
+                <select id="choix" name="choix">
+                    <option value="option1">Réservation/particulier</option>
+                    <option value="option2">Réservation/societé</option>
+                    <option value="option3">Réservation/anniversaire</option>
+                    
+                </select>
+                <br>
+                <br>
+                
+                   <a href="pressylou@hotmail.com" class=" btn button1"><strong>Envoyer</strong></a>
+                   
 
 
 	       </form>

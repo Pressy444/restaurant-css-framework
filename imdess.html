@@ -6,103 +6,81 @@
     <title>Desserts</title>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-    
-    
-
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="scriptApero.js"></script>
     <link rel="stylesheet" href="style1.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <body> 
 
 
-    <body> 
-    
-      
-      
-      <nav class="nav bg-dark text-white justify-content-center">
-              <a href="index.html" class="nav-link text-white col-md-2 col-lg-2">Accueil</a>
-              <a href="menu.html" class="nav-link text-white col-md-2 col-lg-2">Menu</a>
-              <a href="decouvrir.html" class="nav-link text-white col-md-2 col-lg-2">Découvrir</a>
-              <a href="resto.html" class="nav-link text-white col-md-2 col-lg-2">Restaurant</a>
-              <a href="contact.html" class="nav-link text-white col-md-2 col-lg-2">Contact</a>
-           </nav>
-          
-          
-      <div class="image">
-      
-      <div class="jumbotron text-center custom-jumbotron"> 
-          
+  <nav class="nav bg-dark text-white justify-content-center">
+    <a href="index.html" class="nav-link text-white col-md-2 col-lg-2">Accueil</a>
+    <a href="menu.html" class="nav-link text-white col-md-2 col-lg-2">Menu</a>
+    <a href="decouvrir.html" class="nav-link text-white col-md-2 col-lg-2">Découvrir</a>
+    <a href="resto.html" class="nav-link text-white col-md-2 col-lg-2">Restaurant</a>
+    <a href="contact.html" class="nav-link text-white col-md-2 col-lg-2">Contact</a>
+ </nav>
+
+
+
+
+  
+  <div class="image">
+
+    <div class="jumbotron text-center custom-jumbotron"> 
         
-          <p class="bg-dark text-white"></p>
-          <h1 class="fs-1 size-30px">DESSERTS</h1> 
       
-          <p class="bg-dark text-white">Gastronomic cooking</p>
-      
-          <a href="menu.html" class="btn btn-outline-dark justify-content-center text-center"><strong>Retour</strong></a>
-      
-          
-      
-      </div>
-      </div>
-
-
-      
-
-      <div id="monCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="C:\Users\Utilisateur\Desktop\-css-framework\apero.avif" width: 100 height: 100 class="d-block w-100" alt="Slide 1">
-          </div>
-          <div class="carousel-item">
-            <img src="C:\Users\Utilisateur\Desktop\-css-framework\table-2personnes.avif" width: 100 height: 100 class="d-block w-100" alt="Slide 2">
-          </div>
-          <div class="carousel-item">
-            <img src="C:\Users\Utilisateur\Desktop\-css-framework\juan-rojas-xfzphwf_bti-unsplash.jpg" width: 100 height: 100 class="d-block w-100" alt="Slide 3">
-          </div>
+        <p class="bg-dark text-white"></p>
+        <h1 class="fs-1 size-30px">DESSERTS</h1> 
+    
+        <p class="bg-dark text-white">Gastronomic cooking</p>
+    
+        <a href="menu.html" class="btn btn-outline-dark justify-content-center text-center"><strong>Retour</strong></a>
+    
         </div>
+    </div>
+  </div>
+    
+
+
+  <nav aria-label="#monCarousel">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <span class="page-link">Précédent</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <span class="page-link">2</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Suivant</a>
+      </li>
+    </ul>
+  </nav>
+  
+
+
+
+  <div id="monCarousel" class="carousel slide" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="CARRE CHOCOLAT.webp" class="d-block w-100 h-100" alt="Carré chocolat">
       </div>
-      
-      
-      
-      
-      <nav aria-label="#monCarousel">
-        <ul class="pagination">
-          <li class="page-item disabled">
-            <span class="page-link">Pécédent</span>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item active" aria-current="page">
-            <span class="page-link">2</span>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Suivant</a>
-          </li>
-        </ul>
-      </nav>
-      
-      
-      
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      
-      <script>
-        $(document).ready(function(){
-          $('#monCarousel').carousel(); // Initialise le carousel
-          
-          // Gère la navigation lorsque vous cliquez sur les éléments de pagination
-          $('.pagination li').on('click', function(){
-            var targetSlide = $(this).attr('data-slide-to');
-            $('#monCarousel').carousel(parseInt(targetSlide));
-          });
-          
-          // Met à jour la classe active sur les éléments de pagination lorsque le carousel change de diapositive
-          $('#monCarousel').on('slide.bs.carousel', function (e) {
-            $('.pagination li').removeClass('active');
-            $('.pagination li[data-slide-to="' + e.to + '"]').addClass('active');
-          });
-        });
-      </script>
-      
+      <div class="carousel-item active">
+        <img src="GATEAU.webp" class="d-block w-100 h-100 " alt="Gateau orange">
+      </div>
+      <div class="carousel-item">
+        <img src="DESSERT NOIR ET ROSE.webp" class="d-block w-100 h-100" alt="Dessert rose et noir">
+      </div>
+    </div>
+<br>
+<br>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
