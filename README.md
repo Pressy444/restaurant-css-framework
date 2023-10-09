@@ -1,9 +1,9 @@
 # restaurant-css-framework
-file:///C:/Users/Utilisateur/Desktop/-css-framework/index.html
-# projet restaurant "LE DELICIOUS BEACH"
+
+# Projet restaurant "LE DELICIOUS BEACH"
 
 ## Un site web pour un restaurant gastronomique en bord de mer.
-##le projet comprend 9 pages :
+## Le projet comprend 9 pages :
 1. Accueil: Le nom du restaurant et 2 cards avec des promotions.
 2. Menu:Un menu des entrées, plats, desserts, aperitifs et leurs prix, des (titres-badges) clickables qui donnent vers des paginations selon le badge clické.
 3. Découvrir: Une gallerie de photos clickable qui mène encore une fois à des paginations.
