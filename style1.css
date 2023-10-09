@@ -1,15 +1,48 @@
 
+@media (max-width: 576px) {
+  /* Styles pour les écrans "small" */
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  /* Styles pour les écrans "medium" */
+}
+@media (min-width: 993px) {
+  /* Styles pour les écrans "large" */
+}
+
+
+
+
 body {
     text-align: center;
     background-color:#ac9b7b;
+    
 }
 
-h1 { font-family:Arial, Helvetica, sans-serif ;
-    
-    font-size: 80px;
+h1 { 
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 70px;
     color:rgb(51, 50, 50);
     text-shadow: 4px 4px 4px; 
 }
+
+h2 {
+  color:#534f4f;
+  text-shadow: 4px 4px 4px black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align:center;
+  display: flex;
+  position: center;
+  border-radius: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
+
 
 .jumbotron {
     margin-left: 2%;
@@ -88,14 +121,11 @@ h1 { font-family:Arial, Helvetica, sans-serif ;
     font-family: Dancing Script,cursive;
     width: 90%;
     margin-left: 5%;
+    display: flex;
   }
 
 
-  .list {
-
-margin-right: 20px;
-
-  }
+  
 .nav {
 
   font-family: Dancing Script,cursive;}
@@ -257,10 +287,21 @@ height: auto;
 }
 
 .badge {
-
-  margin-left: 350px;
+  text-align: center;
   box-shadow: 5px 5px 6px;
+  display:flex;
+  background-color: #443f3d;
+  color: #252525;
+  position: center;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-block:initial;
+  justify-content: center;
+  align-items: center;
+  
 }
+
 
 .dropdown {
   position: relative;
@@ -296,4 +337,36 @@ height: auto;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+@media (max-width: 768px) {
+  .menu {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .list-group {
+      max-width: 100%;
+  }
+}
+
+/* Pour les écrans larges (desktop) */
+@media (min-width: 992px) {
+  .badgeTitre {
+    position: absolute;
+    
+    left: 265px; /* Ajustez la valeur selon vos besoins */
+    transform: translateY(-50%);
+  }
+}
+
+/* Pour les écrans étroits (mobile) */
+@media (max-width: 991px) {
+  .badgeTitre {
+    display: block;
+    margin: 0 auto; /* Centrez horizontalement */
+    text-align: center; /* Centrez le contenu du badge */
+  }
 }
