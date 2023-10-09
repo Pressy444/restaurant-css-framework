@@ -130,6 +130,7 @@ h2 {
 
   font-family: Dancing Script,cursive;}
   
+ 
   button:hover {
     background-color: #c5a262;
     color: #FFFAE1;
@@ -208,7 +209,7 @@ h2 {
     transition: 0.3s ease-in-out;
     background-color: #8d6d31;
     border: none;
-	  width: 55%;
+	  width: 40%;
 	  padding: 15px 10px;
 	  margin: 1px 0;
 	  font-size: 1.2em;
@@ -255,10 +256,15 @@ p, h5 {
 
 .carousel-item img {
 
+border-radius: 10px;
 width: 100%;
 height: auto;
-
+box-shadow: 4px 4px 6px;
 }
+
+
+
+
 
 .cookie-alert {
   position: fixed;
@@ -369,4 +375,15 @@ height: auto;
     margin: 0 auto; /* Centrez horizontalement */
     text-align: center; /* Centrez le contenu du badge */
   }
+}
+.image-container {
+
+  border-radius: 20px;
+
+
+}
+.image-container img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
 }
