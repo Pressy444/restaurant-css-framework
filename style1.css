@@ -165,7 +165,9 @@ h2 {
 }
 
 #map {
-  
+
+
+
   margin: 50px 50px 50px 50px;}
   
 
@@ -389,8 +391,8 @@ box-shadow: 4px 4px 6px;
     cursor: pointer;
     transition: background-color 0.3s;
     transition: transform 0.2s;
-    transform: scale(1.1); /* Zoom au survol */
-
+    transform: scale(1.1); 
+    
 }
 
 .image-container:hover {
@@ -400,3 +402,5 @@ box-shadow: 4px 4px 6px;
  
 
 
+
+   
