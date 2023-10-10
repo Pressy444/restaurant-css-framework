@@ -1,4 +1,7 @@
+# [Lien de ma page](https://pressy444.github.io/restaurant-css-framework/)
+
 # restaurant-css-framework
+
 
 # Projet restaurant "LE DELICIOUS BEACH"
 
@@ -17,7 +20,7 @@
    photos des plats proposés sur le menu. 
 9. Une Page Desserts: Cette page est accessible depuis la page "menu" en clickant sur le badge" Desserts" ou depuis la page "Découvrir" enclickant sur la photo "Desserts" avec les 
    photos des Desserts proposés sur le menu.
-##les images utilisées ont été récuperées sur "I STOCK" d'autres images ont été générées avec une application d'I.A .
+## Les images utilisées ont été récuperées sur "I STOCK" d'autres images ont été générées avec une application d'I.A .
 
    
 ## Technologie :
