@@ -2,12 +2,8 @@
 
 # restaurant-css-framework
 ![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/bd93386d-d46b-4046-bdbe-3cbfb5ad04bf)
-
-
-
-
 ![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/16ab7de7-d89b-4f53-80f3-513f9f5c89f3)
-![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/4f230725-bf7a-4faf-b2f9-ed1d174f9d2c)
+
 
 
 # Projet restaurant "LE DELICIOUS BEACH"
