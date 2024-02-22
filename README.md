@@ -2,9 +2,9 @@
 
 # restaurant-css-framework
 ![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/bd93386d-d46b-4046-bdbe-3cbfb5ad04bf)
-![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/bce310ab-5365-4cd6-b794-f989d0c4b769)
 
-![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/a211a074-516f-4de4-b941-ff9dad117991)
+
+
 
 ![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/16ab7de7-d89b-4f53-80f3-513f9f5c89f3)
 ![image](https://github.com/Pressy444/restaurant-css-framework/assets/145189170/4f230725-bf7a-4faf-b2f9-ed1d174f9d2c)
